@@ -26,7 +26,7 @@ export function AppSidebar() {
   return (
     <Sidebar collapsible="icon" className="border-r border-panel-border">
       <SidebarContent>
-        <SidebarGroup defaultOpen>
+        <SidebarGroup>
           <SidebarGroupLabel>Configuration</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
