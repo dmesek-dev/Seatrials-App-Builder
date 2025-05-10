@@ -5,3 +5,30 @@
   padding: 0;
   text-align: left;
 }
+
+.bg-action {
+  background-color: #8b5cf6;
+}
+
+.hover\:bg-action\/80:hover {
+  background-color: rgba(139, 92, 246, 0.8);
+}
+
+.bg-panel {
+  background-color: #121212;
+}
+
+.bg-panel-light {
+  background-color: #1e1e1e;
+}
+
+.border-panel-border {
+  border-color: #2d2d2d;
+}
+
+/* Add responsive styles for the sidebar layout */
+@media (max-width: 768px) {
+  .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
